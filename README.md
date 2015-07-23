@@ -14,11 +14,11 @@ var fn = require('fp-es6');
 var doubledAndFiltered = fn(new Set([1,2,3]))
   .map(val => 2 * val)
   .filter(val => val > 2)
-  .value();
+  .value(); // call value() to extract the native collection
 
 doubledAndFiltered instanceof Set // true
 
-var sum = fn(new Set([1,2,3])).map((a, b) => a + b);
+var sum = fn(new Set([1,2,3])).reduce((a, b) => a + b);
 
 var hasFive = fn(new Set([1,2,3])).some(val => val === 5);
 

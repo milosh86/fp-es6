@@ -1,0 +1,34 @@
+{
+  "name": "fp-es6",
+  "version": "0.1.0",
+  "description": "Tiny library of functional programming operations for ES6 collections (Maps and Sets).",
+  "main": "fp-es6.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src/fp-es6.js --out-file fp-es6.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milosh86/fp-es6.git"
+  },
+  "keywords": [
+    "fp",
+    "functional",
+    "es6",
+    "collections",
+    "map",
+    "set"
+  ],
+  "author": "Milos Dzepina (milos.dzepina@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/milosh86/fp-es6/issues"
+  },
+  "homepage": "https://github.com/milosh86/fp-es6#readme",
+  "devDependencies": {
+    "babel": "*"
+  }
+}

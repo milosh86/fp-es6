@@ -9,6 +9,8 @@ Provides following operations:
 - some: MapOrSet -> Boolean
 - every: MapOrSet -> Boolean
 
+Assumes that Map and Set are present (native or polyfill).
+
 ```
 var fn = require('fp-es6');
 

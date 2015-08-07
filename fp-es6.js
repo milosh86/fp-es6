@@ -1,8 +1,8 @@
 'use strict';
 
-//Object.defineProperty(exports, '__esModule', {
-//  value: true
-//});
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
 function fpES6(collection) {
   var type = undefined;
 
@@ -161,5 +161,5 @@ function fpES6(collection) {
   };
 }
 
-//exports['default'] = fpES6;
-//module.exports = exports['default'];
+exports['default'] = fpES6;
+module.exports = exports['default'];

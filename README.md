@@ -2,6 +2,8 @@
 Tiny library of functional programming operations for ES6 collections (Maps and Sets).
 Couldn't find any similar library without Traceur dependancy :(
 
+npm install fp-es6
+
 Provides following operations:
 - map: MapOrSet -> MapOrSet 
 - filter: MapOrSet -> MapOrSet 
